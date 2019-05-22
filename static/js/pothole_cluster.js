@@ -30,6 +30,11 @@ for (var i = 0; i < response.length; i++) {
     // Set the data latitude and longtitude
     var lat = response[i].lat;
     var long = response[i].long;
+    var service_request_id = response[i].serivce_request_id;
+    var council_district = response[i].council_district;
+    var comm_plan_name = response[i].comm_plan_name;
+    var case_origin = response[i].case_origin;
+    var updated_datetime = response[i].updated_datetime;
     // if(i < response.length/50){
     //     console.log(typeof lat);
     //     console.log(lat);
